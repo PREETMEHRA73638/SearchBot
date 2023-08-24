@@ -7,7 +7,7 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", "23291389"))
     API_HASH = os.getenv("API_HASH", "f2cd5ea2f572dd7442ebb57b3273fdfd")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "6221506336:AAFRWMIz4PvDcv6rvf-ac952pqo9_fYCAR4")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6555240077:AAGqLZoHgV2DayQnzMj4BKw_D0VIeNHa1vo")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "SearchBot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKsBu3hQ3g6F7XEPferLXPasi0M_X14plO1L7zBgwC6EpYXidwyljOfzm0qbjg6JdiVhnN-s2ey0lgldQ8mRLzsoUQ63lspTILdLItaPkE7pd7jww8mXCM5Q23T8Prh4fvpMwDGIt8Q1EUAEicnGOaIVZ1Supax_HrTInrkJwUPrSN8wJMh7OqJAH_9ZxzNbfAKtiDQovwXGNFaEY4Ov6sVy73-KS2DqF8NJUDcDDMrr6TrtMsaKwpDeqrqUABN31ocupWvtjMXIihv4lgxv4_-wPzPYF_ybSLR9Rhmkfjw1mZOUnkcJfWjdVNfh4KiQU7NobFOlo8UhFuYVD4YkDSMz3L0=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001374328056")) 
