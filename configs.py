@@ -7,14 +7,14 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", "9561254"))
     API_HASH = os.getenv("API_HASH", "c07ff08fbdfc2c31894c890082cbc0a6")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "6555240077:AAGqLZoHgV2DayQnzMj4BKw_D0VIeNHa1vo")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6400007149:AAFcNV4JErY3hlgenRxBldQCCYztieFhX9s")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "SearchBot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKEBu5gxJJlyWuzRAddPydHgz-ROTDiGImFbF1yD17RnUmzPiVPYIZDj3mtHP5WbyZyChapQo01I_aFZukYqhpdz4XEChKYtUGJ0D03UdSnrn6yn43hSp7M6wt4IBtbY-sSDVUyaJxg5eeN0dq8z6T24WXTh-vksmHOFtW-fXO469ptsOKheL2OJg_-U04j8wfSBiiZOBWKxcWjwXAR2amlehVf91HIllgbE1fuEHFlZ31zjlfQQ2vNcX6ZpLUBpcoW_SDL0O75ilE7SQOto00IvDRM1Bhdwx8VOET3Y73aj6L2ukMCi701WN7bmI7DVvj5vxYbY8ySF35LbgkaymC5sZA0=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001601945988")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "MOVIES_VILLA_SEARCHbot")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "Movies_villa_Search_786_bot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5913027292"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "cyniteSupport")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "sbbackup")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "-1001671782008")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
@@ -29,8 +29,8 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001619538985")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://cometi1038:autosearchbot@cluster0.s0w4kwi.mongodb.net/?retryWrites=true&w=majority")
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001987669756")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Fake123:Fake123@cluster0.uhchask.mongodb.net/?retryWrites=true&w=majority")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001801078849"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 30))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
