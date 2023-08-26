@@ -1,5 +1,5 @@
 echo "Cloning Repo...."
-git clone https://github.com/ROYAL-JATT/SearchBot
+git clone https://github.com/PREETMEHRA73638/SearchBot
 cd /SearchBot
 pip3 install -r requirements.txt
 echo "Starting Bot...."
