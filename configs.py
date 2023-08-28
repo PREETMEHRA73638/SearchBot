@@ -5,16 +5,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "9561254"))
-    API_HASH = os.getenv("API_HASH", "c07ff08fbdfc2c31894c890082cbc0a6")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "6555240077:AAGqLZoHgV2DayQnzMj4BKw_D0VIeNHa1vo")
+    API_ID = int(os.getenv("API_ID", "25830285"))
+    API_HASH = os.getenv("API_HASH", "0cbcabbf1b9c56a4dfc4b8950d584a2a")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6443763987:AAFqZrFnJHux_0pHRddE5xtmZEIY89RmOK0")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "SearchBot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOIEBu42psexN2bU5Mc4Q1f0XHMnhhd7t3kJIrKKd2w9haegJS1ylrb5Sr2Gp6d94JLsuJxKXPZFaDiH71wm1OV9U2XOUzpdc0rwFEyqV2cGmMxDD9x8Kq93I4PoPqssEln_iDXcBrnbGRiy7takeWm5z0_ElivX1HS0_HFxZOYBKhgPM4GjkkPQlTp5I0eixsDSZvzQHKKq4KSWkPtX8PmpEua-cZIOAsn9e642UdTiX94pJuJRONU6-HHz3rpvaOnGOUGuJNTzPIHXhugTcLyh5bnOkypZj3h1htxQUJo54TavpmCOzaTtj8-oxVcb4m-6y68PY6A9oaIpUw5X0-qPt-AE=")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001601945988")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "MOVIES_VILLA_SEARCHbot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "5913027292"))
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOHgBu3DYVi4PyDOz9EZRa4HvGqA4309Vcjax-sMmyOlVgv9pzpMiSAjEsQTJFCBrumGy0ybZsyz9Zr3w_Dx0VvaYti9kuBh9d_Dm-vallzIblvPFshTXH71HX10aCp8i1RVDtousOE3k3fheyNaSv-bgt8pXuYwNFpjYHPmHrRSxPEeazUmMhxx_vDLbFbEWeH5H9dw3bC933msd27nnOrL1qTsFnTLK-and_oi8-g-iuPW64mbXGXtlX8LvGU5s4joLBG26U-8N2pclnm5jUi0oLzUZVT69PEDg8UEgX139ykGtJsYYO323uvx9jPa_0TunVOonceJUPeYcdNkgMnNFunA=")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001855434571")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "MOVIES_VILLA_SEARCH_BOT")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "6339699671"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "cyniteSupport")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "-1001671782008")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "-1001909255859")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
@@ -29,12 +29,12 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001987669756")
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001896148531")
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Fake123:Fake123@cluster0.uhchask.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001801078849"))
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001956300988"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 30))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "update_channel_738")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "novies_update_channel")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
     MDISK_API = os.getenv("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
@@ -45,7 +45,7 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 
 i ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.
 
-ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @ROYAL_OSM_GABRU 🤖""" )
+ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @ROYAL_OSM_MEHRA 🤖""" )
     ABOUT_WATCH_TEXT = """
 ʜᴇʏ ʙᴜᴅᴅʏ, 
 
@@ -54,7 +54,7 @@ i ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅ
 
 ᴛᴇʀᴀ ʙᴏx - ᴀɢᴀʀ ᴀᴘᴘᴋᴏ ɴᴀʜɪ ᴘᴀᴛᴀ ᴋɪ ᴛᴇʀᴀʙᴏx sᴇ ᴍᴏᴠɪᴇs ᴋᴀɪsᴇ ᴅᴇᴋʜᴇ ᴛᴏ ɴɪᴄʜᴇ ᴅɪʏᴇ ɢᴀʏᴇ ᴛᴇʀᴀ ʙᴏx ʙᴜᴛᴛᴏɴ ᴘᴀʀ ᴄʟɪᴄᴋ ᴋᴀʀᴇ
 
-ʀᴇɢᴀʀᴅs - @ROYAL_OSM_GABRU"""
+ʀᴇɢᴀʀᴅs - @ROYAL_OSM_MEHRA"""
     
     ABOUT_TERABOX_TEXT = """
 𝗧𝗲𝗿𝗮𝗕𝗼𝘅 𝗸𝗶 𝗹𝗶𝗻𝗸𝘀 𝗢𝗽𝗲𝗻 𝗔𝗶𝘀𝗲 𝗞𝗮𝗿𝗲👇🔥
@@ -80,11 +80,11 @@ https://teraboxapp.com/s/1NUBTuXUnlJvoQkw1veG2DA
 
 🍓 Sᴛᴇᴘ 3 - ɢʀᴏᴜᴘ ᴍᴇ "/License" ᴛʏᴘᴇ ᴋᴀʀ ᴋᴇ ꜱᴇɴᴅ ᴋᴀʀɴᴀ ʜᴏɢᴀ!
 
-ꜰɪʀ ʙᴏᴛ ᴋᴇ ᴏᴡɴᴇʀ ᴀᴘᴋᴀ ʏᴇ ʀᴇQᴜᴇꜱᴛ ᴀᴄᴄᴇᴘᴛ ᴋᴀʀ ʟᴇɴɢᴇ. @ROYAL_OSM_GABRU
+ꜰɪʀ ʙᴏᴛ ᴋᴇ ᴏᴡɴᴇʀ ᴀᴘᴋᴀ ʏᴇ ʀᴇQᴜᴇꜱᴛ ᴀᴄᴄᴇᴘᴛ ᴋᴀʀ ʟᴇɴɢᴇ. @ROYAL_OSM_MEHRA
 
 🍓 Sᴛᴇᴘ 4 - ɢʀᴏᴜᴘ ᴍᴇ "/database - ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ɪᴅ" ᴛʏᴘᴇ ᴋᴀʀ ᴋᴇ ꜱᴇɴᴅ ᴋᴀʀɴᴀ ʜᴏɢᴀ.
 
-ꜰɪʀ ʙᴏᴛ ᴋᴇ ᴏᴡɴᴇʀ ᴀᴘᴋᴀ ʏᴇ ʀᴇQᴜᴇꜱᴛ ʙʜɪ ᴀᴄᴄᴇᴘᴛ ᴋᴀʀ ʟᴇɴɢᴇ. @ROYAL_OSM_GABRU
+ꜰɪʀ ʙᴏᴛ ᴋᴇ ᴏᴡɴᴇʀ ᴀᴘᴋᴀ ʏᴇ ʀᴇQᴜᴇꜱᴛ ʙʜɪ ᴀᴄᴄᴇᴘᴛ ᴋᴀʀ ʟᴇɴɢᴇ. @ROYAL_OSM_MEHRA
 
 🍓 Sᴛᴇᴘ 5 - ᴀʙ ᴀᴘᴋᴏ ᴀᴘɴᴇ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴍᴇ ᴘᴏꜱᴛ ᴅᴀʟɴɪ ʜᴏɢɪ,
 
@@ -93,8 +93,8 @@ https://teraboxapp.com/s/1NUBTuXUnlJvoQkw1veG2DA
 🍓 Nᴏᴛᴇ : Bᴏᴛ ᴀᴅᴍɪɴ ᴀᴘᴋᴇ ᴄʜᴀɴɴᴇʟ ᴍᴇ ᴊᴏɪɴ ʜᴏɴᴇ ᴄʜᴀʜɪʏᴇ,
 
 ᴀɢᴀʀ ʙᴏᴛ ᴀᴅᴍɪɴ ᴀᴘᴋᴀ ʀᴇQᴜᴇꜱᴛ ᴀᴄᴄᴇᴘᴛ ɴʜɪ ᴋᴀʀ ʀᴀʜᴇ ʜᴀɪɴ ᴛᴏ ᴜɴʜᴇ ᴘᴇʀꜱᴏɴᴀʟ ᴍꜱɢ ᴋᴀʀᴇɴ.
-👉 @ROYAL_OSM_GABRU
+👉 @ROYAL_OSM_MEHRA
 
-☘️ Tip : Contact @ROYAL_OSM_GABRU For Rent Me !i>
+☘️ Tip : Contact @ROYAL_OSM_MEHRA For Rent Me !i>
 """
 
